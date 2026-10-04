@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>˚₊‧꒰ა Love World ໒꒱ ‧₊˚</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Floating romantic symbols -->
+    <div id="floatingSymbols"></div>
+
+
+    <!-- ================= WELCOME SCREEN ================= -->
+
+    <section id="welcomeScreen" class="screen active">
+
+        <div class="welcome-card">
+
+            <div class="top-symbol">
+                𓆩♡𓆪
+            </div>
+
+            <div class="sparkles">
+                ✦　✧　ෆ　✧　✦
+            </div>
+
+            <h1>
+                Welcome to
+                <br>
+                <span>Love World</span>
+            </h1>
+
+            <p>
+                ˚₊‧꒰ა A little world made for
+                beautiful moments, romantic music
+                and sweet memories ໒꒱ ‧₊˚
+            </p>
+
+            <div class="decorative-line">
+                ୨୧ ───────── ୨୧
+            </div>
+
+            <input
+                type="text"
+                id="nameInput"
+                placeholder="Enter your name ♡"
+                maxlength="25"
+            >
+
+            <button onclick="enterLoveWorld()">
+                𓆩♡𓆪 Enter Our World 𓆩♡𓆪
+            </button>
+
+            <div class="bottom-symbol">
+                ꨄ　ෆ　♡　ෆ　ꨄ
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= LOVE SCREEN ================= -->
+
+    <section id="loveScreen" class="screen">
+
+        <div class="love-container">
+
+            <div class="top-decoration">
+                ✧･ﾟ: *✧･ﾟ:* 𓆩♡𓆪 *:･ﾟ✧*:･ﾟ✧
+            </div>
+
+
+            <p class="welcome-text">
+                ୨୧ Welcome, <span id="userName"></span> ୨୧
+            </p>
+
+
+            <!-- BIG HEART -->
+
+            <div class="heart-wrapper">
+
+                <div class="heart-glow"></div>
+
+                <div class="big-heart">
+                    ♥
+                </div>
+
+                <div class="heart-symbol symbol-one">
+                    ✦
+                </div>
+
+                <div class="heart-symbol symbol-two">
+                    ♡
+                </div>
+
+                <div class="heart-symbol symbol-three">
+                    ✧
+                </div>
+
+            </div>
+
+
+            <div class="romantic-decoration">
+                𓆩♡𓆪　୨୧　𓆩♡𓆪
+            </div>
+
+
+            <!-- ROMANTIC MOMENT -->
+
+            <h1 id="romanticTitle">
+                A beautiful moment awaits...
+            </h1>
+
+            <p id="romanticMessage" class="romantic-message">
+                Your special moment is waiting for you ♡
+            </p>
+
+
+            <!-- ROMANTIC PERSON -->
+
+            <div class="person-card">
+
+                <div class="person-icon">
+                    ᥫ᭡
+                </div>
+
+                <div class="person-info">
+
+                    <small>
+                        ୨୧ Your romantic companion ୨୧
+                    </small>
+
+                    <h2 id="randomName">
+                        ...
+                    </h2>
+
+                </div>
+
+                <div class="person-symbol">
+                    ꨄ
+                </div>
+
+            </div>
+
+
+            <!-- MUSIC PLAYER -->
+
+            <div class="music-player">
+
+                <div class="music-icon">
+                    ♪
+                </div>
+
+                <div class="music-info">
+
+                    <small>
+                        ✦ NOW PLAYING ✦
+                    </small>
+
+                    <h3>
+                        Romantic Dreams ♡
+                    </h3>
+
+                    <p>
+                        A little melody just for you 𓆩♡𓆪
+                    </p>
+
+                </div>
+
+                <button
+                    id="musicButton"
+                    onclick="toggleMusic()"
+                >
+                    ▶
+                </button>
+
+            </div>
+
+
+            <!-- NEW MOMENT -->
+
+            <button
+                class="new-moment"
+                onclick="newMoment()"
+            >
+                ✧ Create Another Moment ✧
+            </button>
+
+
+            <div class="bottom-decoration">
+                ˚₊‧꒰ა ♡ ໒꒱ ‧₊˚　ෆ　˚₊‧꒰ა ♡ ໒꒱ ‧₊˚
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        𓆩♡𓆪 Made with love 𓆩♡𓆪
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
